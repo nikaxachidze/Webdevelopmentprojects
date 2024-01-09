@@ -1,0 +1,260 @@
+ 
+ .burger {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://raw.githubusercontent.com/grup208/classWorksHTML/748e232722a0570cc086892a245b3166b433f504/29.12.2023/task_2/images/icon-hamburger.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-delay: 0.2s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+menu a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+menu {
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    height: 0;
+    overflow: hidden;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    transition-delay: 0.2s;
+}
+
+.drop-down-container:hover .burger {
+    background-image: url("https://raw.githubusercontent.com/grup208/classWorksHTML/748e232722a0570cc086892a245b3166b433f504/29.12.2023/task_2/images/icon-close.svg");
+}
+
+.drop-down-container:hover menu {
+    height: 150px;
+    padding: 20px 0;
+}
+
+
+.logo {
+    position: absolute;
+    top: 42px;
+}
+
+.pictwo {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.pictwo img {
+    width: 400px;
+}
+
+.information {
+    text-align: center;
+}
+
+.information hr {
+    width: 300px;
+}
+
+.information p {
+    color: grey;
+}
+
+.information button {
+    background-color: rgb(75, 75, 241);
+    color: white;
+    height: 40px;
+    width: 130px;
+}
+
+.picthree {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.picthree img {
+    width: 400px;
+}
+
+.informationtwo {
+    text-align: center;
+}
+
+.informationtwo p {
+    color: grey;
+}
+
+.informationthree {
+    text-align: center;
+}
+
+.informationthree p {
+    color: grey;
+}
+
+.informationfour {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.informationfour button {
+    background-color: rgb(75, 75, 241);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.informationfive {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.informationfive button {
+    background-color: rgb(75, 75, 241);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.informationsix {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.informationsix button {
+    background-color: rgb(75, 75, 241);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.askedquestions {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.askedquestions p {
+    color: grey;
+    padding: 15px;
+
+}
+
+.askedquestionsanswer {
+    text-align: center;
+
+}
+
+.askedquestionsanswer hr {
+    width: 300px;
+}
+
+.askedquestionsanswer p {
+    color: black;
+    padding: 5px;
+}
+
+.askedquestionsanswer button {
+    background-color: #0969da;
+    color: white;
+    height: 40px;
+    width: 130px;
+
+}
+
+.footer {
+    background-color: #0969da;
+    text-align: center;
+    color: aliceblue;
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.footer input {
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+}
+
+.footer button {
+    width: 360px;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+.footertwo {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    background-color: #002155;
+    color: white;
+    
+}
+.footertwo h2 {padding: 15px;}
+
+.footertwo h3{padding: 10px;}
+
+.footertwo img{height: 50px;width: 50px;position: relative;right: 100px;top: 75px;}
+
+.bookmarklogos img {padding: 20px;height: 50px;width: 50px;
+position: relative;left: 850px;bottom: 90px;}  
+
+
+
+    
+    
