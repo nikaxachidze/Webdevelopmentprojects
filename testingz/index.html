@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function buy (price,amount){
+        if(price>amount){
+            return 'tanxa ar aris sakmarisi'
+        }
+
+        let change=amount%price;
+        if (change==0){
+            let quantity=amount/price
+            return 'tkven sheidzinet '+ quantity +' nivti '
+        }
+
+        else {
+            amount=amount-change;
+            let quantity=amount/price
+            return 'tkven sheidzinited '+quantity+'da gekutvnit'+change+' ლარი'
+        }
+        // let quanitity=amount/price;
+        
+      }
+
+      console.log (buy(2,1))
+      console.log (buy(2,8))
+      console.log (buy(2,9))
+        
+    </script>
+
+
+</head>
+<body>
+    <h1>hi</h1>
+
+</body>
+</html>
